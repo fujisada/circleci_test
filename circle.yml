@@ -1,3 +1,13 @@
+machine:
+  node:
+    version: 6.10.3
+
 test:
   override:
-    - exit 1
+    - exit 0
+
+deployment:
+  oreore:
+    branch: master
+    commands:
+      - curl "https://sen:kumamon@kai.8122.jp/teacher/"
